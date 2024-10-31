@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <title>California</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <script src="./Javascript/contact.js"></script>
+  </head>
+  <body>
+    <div id="background" title="California Flag">
+      <header>
+        <nav>
+          <div id="nav">
+            <h1>California</h1>
+            <div class="nav-div">
+              <ul>
+                <li class="nav-li"><a href="main.html">Home</a></li>
+                <li class="nav-li"><a href="la.html">Los Angeles</a></li>
+                <li class="nav-li"><a href="sd.html">San Diego</a></li>
+                <li class="nav-li">
+                  <a href="sc.html">Sacramento</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <h1 id="caliTitle" class="main-title">California</h1>
+        <div style="display: flex">
+          <p style="color: white; padding: 0 2em" id="main-p">
+            California was the 38th state added on September 9th of 1850. It has
+            a current population of 39,538,212 people, making it the nations
+            most populated state. California has a wide variety of regions,
+            including beaches, deserts, and mountains. The capitol of California
+            is Sacramento.
+          </p>
+          <img id="flag" src="./images/flag.png" alt="California Bear Flag" />
+          <aside>
+            <h3>Areas to check out</h3>
+            <ul>
+              <li><a href="./la.html">Los Angeles</a></li>
+              <ul>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/Hollywood,_Los_Angeles"
+                    >Hollywood</a
+                  >
+                </li>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/Downtown_Los_Angeles"
+                    >Downtown</a
+                  >
+                </li>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/Venice,_Los_Angeles"
+                    >Venice</a
+                  >
+                </li>
+              </ul>
+              <li><a target="_blank" href="./sd.html">San Diego</a></li>
+              <ul>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/Downtown_San_Diego"
+                    >Downtown</a
+                  >
+                </li>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/Hillcrest,_San_Diego"
+                    >Hillcrest</a
+                  >
+                </li>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/Gaslamp_Quarter,_San_Diego"
+                    >Gas Lamp Quarter</a
+                  >
+                </li>
+              </ul>
+              <li><a target="_blank" href="./sc.html">Sacramento</a></li>
+              <ul>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/East_Sacramento,_Sacramento,_California"
+                    >East Sacramento</a
+                  >
+                </li>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/Folsom,_California"
+                    >Folsom</a
+                  >
+                </li>
+                <li class="aside-li">
+                  <a
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/Midtown_Sacramento"
+                    >Midtown</a
+                  >
+                </li>
+              </ul>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <form id="contact" onSubmit="return checkEmail(this)">
+        <h1>Contact us today!</h1>
+        <div id="container">
+          <div class="contactRow">
+            <label for="firstName">First Name</label>
+            <input id="firstName" placeholder="First Name" type="text" />
+            <label for="lastName">Last Name</label>
+            <input id="lastName" placeholder="Last Name" type="text" />
+          </div>
+          <div class="contactRow">
+            <label>Email Address</label>
+            <input
+              for="email"
+              id="email"
+              placeholder="Email Address"
+              type="email"
+              name="email"
+            />
+            <label>Confirm Email Address</label>
+            <input
+              for="confirm"
+              id="confirm"
+              placeholder="Confirm Email Address"
+              type="email"
+              name="confirm"
+            />
+          </div>
+          <div class="contactRow">
+            <label for="comment">Questions or Comments</label>
+            <br />
+            <textarea
+              name="comment"
+              id="comment"
+              placeholder="Type question or comments here"
+            ></textarea>
+          </div>
+          <br />
+          <input type="submit" id="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
