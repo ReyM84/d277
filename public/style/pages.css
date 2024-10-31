@@ -1,0 +1,194 @@
+.nav-li {
+    list-style-type: none;
+    float: left;
+    margin-top: 3em;
+    width: 11em;
+    position: relative;
+}
+
+.nav-div {
+    border-bottom: 1px solid black;
+    width: 49em;
+    position: a;
+    bottom: 1em;
+    height: 6em;
+    margin-left: 6em;
+}
+
+.nav-li > a {
+    position: relative;
+    right: 2.4em;
+}
+
+li > a:hover {
+    color: black;
+    background: white;
+}
+
+
+li > a:link {
+    text-decoration: none;
+}
+
+#nav {
+    display:flex;
+}
+
+h1 {
+    font-size: 3em;
+    margin-left: 3em;
+}
+
+#losAngeles {
+    background-image: url("../images/LA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sacramento {
+    background-image: url("../images/Sacramento.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sanDiego {
+    background-image: url("../images/Sandiego.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+aside {
+    width: 15em;
+    margin-top: 3em;
+    margin-left: 6em;
+}
+
+aside > ul > li {
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 2em;
+}
+
+a {
+    color: black;
+}
+
+#main-p {
+    width: 50em;
+    padding-left: 24em !important;
+    margin-top: 3em;
+}
+
+.main-title {
+    margin:auto; 
+    text-align: center; 
+    font-weight: 200;
+    position: relative;
+    top: .35em;
+    margin-top: 1em;
+}
+
+h1 {
+        font-family: "Baskervville SC", serif;
+        font-weight: 400;
+
+}
+
+.aside-li {
+    color: black;
+    position: relative;
+    right: 0.5em;
+}
+
+
+#hollywoodSign {
+    width: 15em;
+    align-content: center;
+    position: absolute;
+    right: 25em;
+}
+#cities {
+    color: white;
+    padding: 5em;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+#hollywood > h1 {
+    margin-left: 3em;
+}
+
+#downtown {
+    position: relative;
+}
+
+#downtownpic {
+    width: 15em;
+}
+
+#downtown > p {
+    width: 60%;
+    position: absolute;
+    bottom: 7em;
+    right: 1em;
+}
+
+#venicePic {
+    width: 15em;
+    position: absolute;
+    right: 22em;
+}
+
+#venice > p {
+    width: 60%;
+}
+
+
+#bad {
+    color: #e579ff;
+    font-weight: 900;
+}
+
+table{
+    background: #835757;
+    padding: 2em;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    margin-top: 11em;
+}
+
+td {
+    padding: 2em;
+    border: 1px solid white;
+}
+tr > td:nth-child(1) {
+    font-weight: 700;
+}
+
+#capitolAside {
+    width: 30vw;
+    color: white;
+    background: #835757;
+}
+
+#sdparagraph {
+    margin: 0 7em;
+    margin-top: 5em;
+    color: white;
+    background: #7f96ab;
+    padding: 4em !important;
+    font-size: 1.3em;
+}
+
+#burritoAside {
+    background: #ae7070;
+   width: 30vw;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+#burritoAside > div > div > h3 {
+    padding: 1em;
+}
